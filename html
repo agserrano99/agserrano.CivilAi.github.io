@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-CIVIL SaaS Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Login Screen -->
+    <div class="login-container" id="login-screen">
+      <h1>AI-CIVIL SaaS Platform</h1>
+      <p>Login to access the platform</p>
+      <form id="login-form">
+        <input type="text" id="username" placeholder="Username" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+        <p id="error-message" class="error"></p>
+      </form>
+    </div>
+
+    <!-- Dashboard -->
+    <div class="dashboard-container" id="dashboard" style="display: none;">
+      <h1>Welcome to AI-CIVIL</h1>
+      <p>Automate your engineering tasks with AI-powered tools.</p>
+
+      <div class="features">
+        <div class="feature">
+          <h3>Structural Design</h3>
+          <p>Generate and optimize structural plans with AI.</p>
+        </div>
+        <div class="feature">
+          <h3>Materials Optimization</h3>
+          <p>AI-powered recommendations for material efficiency.</p>
+        </div>
+        <div class="feature">
+          <h3>BIM Integration</h3>
+          <p>Visualize projects with advanced BIM tools.</p>
+        </div>
+        <div class="feature">
+          <h3>Project Management</h3>
+          <p>Track and manage projects with AI insights.</p>
+        </div>
+      </div>
+
+      <button id="logout-button">Logout</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
